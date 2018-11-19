@@ -151,7 +151,7 @@ public class House {
                 IsLandUI.myHouse.getSendingArmy().get(id).poll();
                 JOptionPane.showMessageDialog(null, "Success");
             }
-        }, 10000); //
+        }, 10000);
     }
 
 }
