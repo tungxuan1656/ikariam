@@ -172,7 +172,7 @@ public class BattleFieldFighting {
                             IsLandUI.myHouse.getArmy().addArmy(army);
                             JOptionPane.showMessageDialog(null, "Wave Success!");
                         }
-                    }, 15000);
+                    }, 15000); // thời gian wave atk
                 }
                 
                 IsLandUI.house[houseID].getWaitingWaveAttack().clear();
@@ -189,7 +189,7 @@ public class BattleFieldFighting {
                             IsLandUI.myHouse.getArmy().addArmy(attackBattleField.getReserve().toArmy());
                             JOptionPane.showMessageDialog(null, "Units came back home");
                         }
-                    }, 30000);
+                    }, 30000); // thoi gian rut quan ve nha
                     JOptionPane.showMessageDialog(null, "You won "+IsLandUI.house[houseID].getName());
                 } else {
                     boolean isAllWall = defenceBattleField.isAllWall();
@@ -201,7 +201,7 @@ public class BattleFieldFighting {
 
             }
             }
-        }, 120*1000);
+        }, 120*1000); //thời gian mỗi hiep
         
         
     }
